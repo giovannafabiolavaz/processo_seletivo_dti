@@ -66,3 +66,8 @@
     background-color: rgb(104, 24, 202);
     cursor: pointer;
 }
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
