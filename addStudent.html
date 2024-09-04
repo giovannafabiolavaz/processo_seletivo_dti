@@ -11,32 +11,35 @@
         <a href="index.html">Voltar para tela inicial</a>
     </div>
 
-    <div class="add-screen-form">
+    <div class="add-form">
         <h1>Cadastro de aluno</h1>
         <label for="id_nome">Nome do aluno</label>
-        <input type="text" class="nome">
+        <input type="text" class="form-control" id="nomeAluno">
         <br><br>
         <label for="id_D1">Nota da disciplina 1</label>
-        <input type="text">
+        <input type="number" class="form-control" id="disciplina1">
         <br><br>
         <label for="id_D2">Nota da disciplina 2</label>
-        <input type="text">
+        <input type="number" class="form-control" id="disciplina2">
         <br><br>
         <label for="id_D3">Nota da disciplina 3</label>
-        <input type="text">
+        <input type="number" class="form-control" id="disciplina3"> 
         <br><br>
         <label for="id_D4">Nota da disciplina 4</label>
-        <input type="text">
+        <input type="number" class="form-control" id="disciplina4">
         <br><br>
         <label for="id_D5">Nota da disciplina 5</label>
-        <input type="text">
+        <input type="number" class="form-control" id="disciplina5">
         <br><br>
         <label for="id_freq">Frequência</label>
-        <input type="text" class="frequencia">
+        <input type="number" class="form-control" id="frequencia">
+        <label for="id_freq">%</label>
         <br><br>
-        <a href=""><button class="btn-save">Salvar</button></a>
+        <button type="button" class="btn-save" onclick = "addAluno()">Salvar</button>
 
         
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

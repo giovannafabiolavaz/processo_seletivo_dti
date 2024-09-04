@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Aluno</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="list-screen">
+    <div>
+        <a href="index.html">Voltar para tela inicial</a>
+    </div>
+    <div class="container-list">
+
+        <div>
+            <h2>Dados de cada aluno</h2>
+            <table id="tbAlunos" border="1">
+                <thead>
+                    <tr>
+                        <td>Código</td>
+                        <td>Aluno</td>
+                        <td>Disciplina 1</td>
+                        <td>Disciplina 2</td>
+                        <td>Disciplina 3</td>
+                        <td>Disciplina 4</td>
+                        <td>Disciplina 5</td>
+                        <td>Frequência</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div>
+            <h2>Média da turma em cada disciplina</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td>Media Disciplina 1</td>
+                        <td>Media Disciplina 2</td>
+                        <td>Media Disciplina 3</td>
+                        <td>Media Disciplina 4</td>
+                        <td>Media Disciplina 5</td>
+                    </tr>
+                </thead>
+            </table>
+            <table id="tbMedias" border="1">
+                <thead>
+                    <tr>
+                        <td>Media D1</td>
+                        <td>Media D2</td>
+                        <td>Media D3</td>
+                        <td>Media D4</td>
+                        <td>Media D5</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div>
+            <h2>Alunos que ficaram acima da média</h2>
+            <table id="tbDestaques">
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>Alunos com frequência inferior a 75%</h2>
+            <table id="tbFrequencias">
+                <tr>
+                    <td>Aluno</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="studentsList.js"></script>
+</body>
+
+</html>

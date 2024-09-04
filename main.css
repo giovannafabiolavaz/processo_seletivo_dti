@@ -1,6 +1,5 @@
 .main-screen {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, #26946e, #6448ca);
 }
 
 .inicial-screen {
@@ -12,8 +11,14 @@
     padding: 60px;
     border-radius: 15px;
     color: white;
+    background-image: linear-gradient(45deg, #26946e, #6448ca);
 }
 
+header {
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #26946e, #6448ca);
+}
 
 .btn {
     background-color: #ffffff;
@@ -42,7 +47,7 @@
     margin-left: 57px;
 }
 
-.add-screen-form {
+.add-form {
     background-color: rgba(250, 245, 245, 0.9);
     position: absolute;
     top: 50%;
@@ -67,7 +72,32 @@
     cursor: pointer;
 }
 
-th {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.add-screen-form {
+    background-color: white;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+table tr td {
+    width: 140px;
+    background-color: #6448ca;
+}
+
+.list-screen {
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+
+.container-list {
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    margin: 10%;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
