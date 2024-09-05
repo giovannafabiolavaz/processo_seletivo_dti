@@ -1,7 +1,7 @@
 'use strict'
 
 function addAluno() {
-    //criação das variáveis para armazenar os dados de cada aluno inserido pelo professor
+    //Criação das variáveis para armazenar os dados de cada aluno inserido pelo professor
     var nome = document.getElementById("nomeAluno");
     var disciplina1 = document.getElementById("disciplina1");
     var disciplina2 = document.getElementById("disciplina2");
@@ -10,16 +10,16 @@ function addAluno() {
     var disciplina5 = document.getElementById("disciplina5");
     var frequencia = document.getElementById("frequencia");
 
-    //armazenamento dos dados no localStorage em formato JSON
+    //Armazena dados no localStorage em formato JSON
     var alunos = JSON.parse(localStorage.getItem("dadosAlunos"));
 
-    //caso não tenha nenhum dado inserido, insere uma lista vazia
+    //Insere uma lista vazia caso não tenha nenhum dado inserido
     if (alunos == null) {
         localStorage.setItem("dadosAlunos", "[]");
         alunos = [];
     }
 
-    //criação de um objeto que contém todos os dados necessários de cada aluno
+    //Cria um objeto que contém todos os dados necessários de cada aluno
     var auxRegistro = {
         aluno: nome.value,
         d1: disciplina1.value,
@@ -30,7 +30,7 @@ function addAluno() {
         freq: frequencia.value
     }
 
-    //inserção de cada objeto ao final da lista, para que o último não sobrescreva o anterior e todos os dados sejam armazenados
+    //Insere cada objeto ao final da lista, para que o último não sobrescreva o anterior e todos os dados sejam armazenados
     alunos.push(auxRegistro);
 
     localStorage.setItem("dadosAlunos", JSON.stringify(alunos));
@@ -39,6 +39,7 @@ function addAluno() {
 }
 
 function limpaBaseAlunos(){
+    //Envia um alerta ao usuário para a confirmação sobre limpar a base de dados
     if(confirm("Deseja continuar?"))
         localStorage.setItem("dadosAlunos", "[]");
 }

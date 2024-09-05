@@ -8,12 +8,12 @@ function exibeLista() {
     var tb = document.getElementById("tbAlunos");
 
     for (var i = 0; i < alunos.length; i++) {
-        //busca a quantidade atual de linhas
+        //Busca a quantidade atual de linhas
         var qtdLinhas = tb.rows.length;
         //Insere nova linha no fim da tabela
         var linha = tb.insertRow(qtdLinhas);
 
-        //inserindo as colunas para os dados de cada aluno
+        //Insere as colunas para os dados de cada aluno
         var cellLinhas = linha.insertCell(0);
         var cellNome = linha.insertCell(1);
         var cellD1 = linha.insertCell(2);
@@ -23,7 +23,7 @@ function exibeLista() {
         var cellD5 = linha.insertCell(6);
         var cellFreq = linha.insertCell(7);
 
-        //ordenando as informações em suas respectivas colunas
+        //Ordena as informações em suas respectivas colunas
         cellLinhas.innerHTML = qtdLinhas;
         cellNome.innerHTML = alunos[i].aluno;
         cellD1.innerHTML = alunos[i].d1;
