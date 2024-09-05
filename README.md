@@ -24,7 +24,7 @@ Esta aplicação foi desenvolvida com algumas premissas. Tais como:
 ## Decisões de projeto
 1. Tecnologias utilizadas:
 * Frontend: Para a construção da interface do usuário, foram utilizados HTML, CSS e JavaScript. A combinação dessas tecnologias garante que a aplicação seja fácil de usar e acessível em diferentes dispositivos.
-* Backend: No lado do servidor, foi utilizado JavaScript. Esta escolha permite uma integração fluida com o frontend e aproveita a mesma linguagem de programação em ambas as camadas. Além disso, os dados inseridos pelo usuário são armazenados em LocalStorage.
+* Backend: Para o browser, foi utilizado JavaScript. Esta escolha permite uma integração fluida com o frontend e aproveita a mesma linguagem de programação em ambas as camadas. Além disso, os dados inseridos pelo usuário são armazenados em LocalStorage.
 
 2.  Principais Funcionalidades:
  * Entrada de Dados: O sistema permite a inserção do nome, das notas das cinco disciplinas e da frequência de cada aluno em um formulário simples.
