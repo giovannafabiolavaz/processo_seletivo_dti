@@ -31,7 +31,7 @@ function exibeLista() {
         cellD3.innerHTML = alunos[i].d3;
         cellD4.innerHTML = alunos[i].d4;
         cellD5.innerHTML = alunos[i].d5;
-        cellFreq.innerHTML = alunos[i].freq;
+        cellFreq.innerHTML = alunos[i].freq + '%';
     }
 
 }
@@ -57,11 +57,8 @@ function calculaMedia() {
         somaD5 += parseFloat(alunos[i].d5) || 0;
     }
 
-    // Limpa as linhas que contém as médias geradas anteriormente
-    tbMedias.innerHTML = '';
-
     //Insere nova linha com as médias atuais
-    var linha = tbMedias.insertRow(0);
+    var linha = tbMedias.insertRow(1);
 
     //Insere as colunas para os dados de cada aluno
     var cellMedia1 = linha.insertCell(0);

@@ -1,5 +1,7 @@
 .main-screen {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #000000, #1a1439);
+    margin: 0;
 }
 
 .inicial-screen {
@@ -10,18 +12,26 @@
     transform: translate(-50%, -50%);
     padding: 60px;
     border-radius: 15px;
-    color: white;
-    background-image: linear-gradient(45deg, #26946e, #6448ca);
+    color: rgb(0, 0, 0);
+    background-color: rgba(250, 245, 245, 0.9);
 }
 
-header {
+#img {
+    width: 20%;
+}
+
+.cabecalho {
+    margin: 0;
+    padding: 20px;
+    border: 0;
+    vertical-align: baseline;
     font-size: larger;
-    font-family:Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, #26946e, #6448ca);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #000000, #1a1439);
 }
 
 .btn {
-    background-color: #ffffff;
+    background-color: #3aa780;
     padding: 10px;
     width: 100%;
     border-radius: 15px;
@@ -34,22 +44,20 @@ header {
     cursor: pointer;
 }
 
+nav a {
+    color: white;
+}
+
 .add-screen {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-image: linear-gradient(90deg, #000000, #1a1439);
     padding: 60px;
 
-}
-
-.nome {
-    margin-left: 30px;
-}
-.frequencia{
-    margin-left: 57px;
 }
 
 .add-form {
     background-color: rgba(250, 245, 245, 0.9);
     position: absolute;
+    margin: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -58,17 +66,41 @@ header {
     color: rgb(0, 0, 0);
 }
 
+.container-list {
+    background-color: rgba(250, 245, 245, 0.886);
+    position: absolute;
+    margin: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.form-control {
+    padding: 5px;
+    width: 80%;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+.label {
+    margin: 30px;
+}
+
 .btn-save {
-    background-color: #000000;
+    background-color: #3aa780;
     padding: 10px;
-    margin-top: 10px;
     width: 100%;
     border-radius: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 15px;
 }
+
 .btn-save:hover {
-    background-color: rgb(104, 24, 202);
+    background-color: rgb(214, 214, 103);
     cursor: pointer;
 }
 
@@ -81,23 +113,24 @@ header {
 
 table tr td {
     width: 140px;
-    background-color: #6448ca;
+    background-color: rgb(255, 255, 255);
 }
 
 .list-screen {
-    background-color: rgba(0, 0, 0, 0.9);
-    
+    /*background-image: linear-gradient(90deg, #000000, #1a1439);*/
+    background-color: #000000;
+    padding: 70px;
 }
 
-.container-list {
-    background-color: rgb(241, 241, 241);
-    position: absolute;
-    margin: 10%;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    padding: 60px;
-    border-radius: 15px;
-    text-align: center;
-    color: rgb(0, 0, 0);
+.destaques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.frequencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

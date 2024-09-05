@@ -35,8 +35,10 @@ function addAluno() {
 
     localStorage.setItem("dadosAlunos", JSON.stringify(alunos));
     alert("Aluno inserido com sucesso!");
+    window.location.href = 'index.html';
 }
 
 function limpaBaseAlunos(){
-    localStorage.setItem("dadosAlunos", "[]");
+    if(confirm("Deseja continuar?"))
+        localStorage.setItem("dadosAlunos", "[]");
 }

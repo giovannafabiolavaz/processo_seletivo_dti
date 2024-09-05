@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body class="main-screen">
-    <header>
-        Portal do Professor
+    <header class="cabecalho">
+        <img id="img" src="img/img_header.png" alt="textoHeader">
     </header>
     <div class="inicial-screen">
         <h3>Deseja adicionar um aluno ou acessar a lista de alunos?</h3>
         <a href="addStudent.html"><button class="btn">Adicionar aluno</button></a>
         <br><br>
         <a href="studentsList.html"><button class="btn">Acessar lista</button></a>
+        <br><br>
+        <button class="btn" onclick="limpaBaseAlunos()">Limpar base de dados</button>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
