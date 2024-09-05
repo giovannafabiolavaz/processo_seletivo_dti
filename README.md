@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10399697&assignment_repo_type=AssignmentRepo)
 # Processo Seletivo DTI Digital
 
-'Giovanna Fabíola Vaz'
+Giovanna Fabíola Vaz
 
 ## Objetivo 
 Este projeto visa desenvolver um sistema web intuitivo para auxiliar professores na organização e análise das notas e frequências de seus alunos. O sistema permitirá que professores consigam inserir as notas de seus alunos em cinco disciplinas e registrar a frequência de cada um de forma simples e direta. Além disso, será montada uma tabela que apresenta, de forma clara, as notas e a frequência de cada aluno, a média da turma em cada disciplina, o nome dos alunos que ficaram acima da média da turma em alguma disciplina e o nome dos alunos que possuem uma frequência menor que 75%.
